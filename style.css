@@ -105,9 +105,10 @@ main {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-gap: 60px;
+    /* display: flex;
+    justify-content: space-between; */
     margin-right: 11rem;
     margin-left: 11rem;
-    align-items: center;
     margin-top: 5rem;
 }
 
@@ -313,12 +314,25 @@ footer {
     /* sopnsors  */
 
     .sponsors-image {
-        display: none;
-        grid-template-columns: repeat(4, 2rem);
-        grid-template-rows: repeat(2, 1rem);
+
+        grid-template-columns: 3rem 3rem 3rem 3rem;
+        grid-template-rows: 3rem 2rem;
         margin: 0;
-        grid-gap: 20px;
+        -ms-grid-column-align: 3rem;
         margin-top: 2rem;
+    }
+
+
+    /* .sponsors-image {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+
+        flex-wrap: wrap;
+        gap: 1rem;
+    } */
+
+    .sponsors-image img {
+        width: 3.75rem;
     }
 
 
@@ -394,9 +408,7 @@ footer {
 
 
 
-    .sponsors-image {
-        display: none;
-    }
+    .sponsors-image {}
 
 
 
