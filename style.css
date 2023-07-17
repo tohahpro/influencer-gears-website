@@ -84,12 +84,8 @@ nav li a {
 }
 
 
-.banner-image {
-    background-image: url(images/circle_design.svg);
-    background-repeat: no-repeat;
-
-
-
+.banner-image img {
+    width: 100%;
 }
 
 /* .banner-image img {
@@ -262,6 +258,10 @@ footer {
 
 
 
+
+
+
+
 /* Responsive media queries  */
 
 @media screen and (max-width:576px) {
@@ -280,6 +280,7 @@ footer {
 
     nav li {
         text-align: center;
+        padding: 8px;
     }
 
     .header-section {
@@ -299,14 +300,14 @@ footer {
         width: 20.06rem;
     }
 
-    .banner-image {
-        background: none;
+    .banner-image img {
+        width: 20rem;
     }
 
-    .banner-image img {
+    /* .banner-image img {
         width: 350px;
         justify-items: center;
-    }
+    } */
 
 
     /* sopnsors  */
@@ -352,8 +353,8 @@ footer {
     }
 
     .btn {
-        margin-left: 98px;
-        margin-right: 98px;
+        /* margin-left: 98px;
+        margin-right: 98px; */
     }
 
 }
@@ -386,6 +387,11 @@ footer {
     .header-content {
         margin-top: 4rem;
     }
+
+    .banner-image img {
+        width: 22rem;
+    }
+
 
 
     .sponsors-image {
