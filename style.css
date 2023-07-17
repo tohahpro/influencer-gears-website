@@ -237,6 +237,29 @@ main {
 }
 
 
+footer {
+    background-color: #0A0826;
+    margin-top: 3rem;
+
+
+}
+
+.footer-content {
+    color: #FFF;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+
 
 
 /* Responsive media queries  */
