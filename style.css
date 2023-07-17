@@ -212,6 +212,10 @@ main {
     margin-top: 6rem;
 }
 
+.featured-image img {
+    width: 100%;
+}
+
 .featured-content {
     margin-top: 2rem;
 }
@@ -299,6 +303,36 @@ main {
         margin: 1rem;
     }
 
+
+    .featured-section {
+        flex-direction: column-reverse;
+        margin: 2rem;
+    }
+
+    .featured-content {
+        margin-bottom: 2rem;
+
+
+
+    }
+
+    .featured-title {
+        margin-bottom: 2rem;
+        color: #0A0826;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .featured-description {
+        width: 329px;
+        text-align: center;
+    }
+
+    .btn {
+        margin-left: 98px;
+        margin-right: 98px;
+    }
+
 }
 
 
@@ -341,5 +375,35 @@ main {
         grid-template-columns: repeat(1, 1fr);
         margin: 2rem;
     }
+
+    /* featured section  */
+
+    .featured-section {
+        flex-direction: column-reverse;
+        margin: 3rem;
+        align-items: center
+    }
+
+
+    .featured-title {
+        margin-bottom: 2rem;
+        color: #0A0826;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .featured-description {
+        width: 329px;
+        margin-left: 10rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .btn {
+        margin-left: 15.68rem;
+        margin-bottom: 2rem;
+
+    }
+
 
 }
