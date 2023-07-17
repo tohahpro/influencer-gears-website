@@ -264,9 +264,7 @@ footer {
 /* Responsive media queries  */
 
 @media screen and (max-width:576px) {
-    body {
-        overflow-x: hidden;
-    }
+
 
     header {
         padding: 20px;
@@ -328,7 +326,6 @@ footer {
     .sponsors-image {
         margin-left: 1.25rem;
         margin-right: 1.25rem;
-
         flex-wrap: wrap;
         gap: 1rem;
     }
@@ -410,8 +407,17 @@ footer {
 
 
 
-    .sponsors-image {}
+    .sponsors-image {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
 
+    .sponsors-image img {
+        width: 3.75rem;
+    }
 
 
     .card {
