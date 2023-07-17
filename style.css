@@ -102,11 +102,9 @@ main {
 /* sponsors section image styles  */
 
 .sponsors-image {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-gap: 60px;
-    /* display: flex;
-    justify-content: space-between; */
+
+    display: flex;
+    justify-content: space-between;
     margin-right: 11rem;
     margin-left: 11rem;
     margin-top: 5rem;
@@ -317,23 +315,23 @@ footer {
 
     /* sopnsors  */
 
-    .sponsors-image {
-
+    /* .sponsors-image {
+        display: none;
         grid-template-columns: 3rem 3rem 3rem 3rem;
         grid-template-rows: 3rem 2rem;
         margin: 0;
         -ms-grid-column-align: 3rem;
         margin-top: 2rem;
-    }
+    } */
 
 
-    /* .sponsors-image {
+    .sponsors-image {
         margin-left: 1.25rem;
         margin-right: 1.25rem;
 
         flex-wrap: wrap;
         gap: 1rem;
-    } */
+    }
 
     .sponsors-image img {
         width: 3.75rem;
