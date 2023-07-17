@@ -266,6 +266,10 @@ footer {
 /* Responsive media queries  */
 
 @media screen and (max-width:576px) {
+    body {
+        overflow-x: hidden;
+    }
+
     header {
         padding: 20px;
     }
