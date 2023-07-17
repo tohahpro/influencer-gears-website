@@ -423,14 +423,17 @@ footer {
 
     .featured-description {
         width: 329px;
-        margin-left: 10rem;
+        margin: auto;
+        margin-bottom: 1rem;
         text-align: center;
-        align-items: center;
+
+
     }
 
     .btn {
-        margin-left: 15.68rem;
-        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 2rem auto;
 
     }
 
