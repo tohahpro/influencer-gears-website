@@ -286,6 +286,7 @@ footer {
 
     .header-section {
         flex-direction: column-reverse;
+        justify-content: center;
     }
 
     .header-content {
@@ -364,6 +365,13 @@ footer {
     .featured-description {
         width: 329px;
         text-align: center;
+        margin: auto;
+    }
+
+    .btn {
+        display: flex;
+        margin: auto;
+        margin-top: 1rem;
     }
 
 
