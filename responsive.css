@@ -1,0 +1,189 @@
+@media screen and (max-width:576px) {
+
+
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        text-align: center;
+        padding: 8px;
+    }
+
+    .header-section {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .header-content {
+        width: 20.37rem;
+        margin-top: 0.5rem;
+    }
+
+    .header-title {
+        font-size: 1.75rem;
+    }
+
+    .header-description {
+        font-size: .9rem;
+        width: 20.06rem;
+    }
+
+    .banner-image img {
+        width: 20rem;
+    }
+
+
+    .sponsors-image {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .sponsors-image img {
+        width: 3.75rem;
+    }
+
+
+    .card {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1rem;
+    }
+
+
+    .featured-section {
+        flex-direction: column-reverse;
+        margin: 2rem;
+    }
+
+    .featured-content {
+        margin-bottom: 2rem;
+
+
+
+    }
+
+    .featured-title {
+        margin-bottom: 2rem;
+        color: #0A0826;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .featured-description {
+        width: 329px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .btn {
+        display: flex;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:960px) {
+
+    header {
+        padding: 2.5rem;
+    }
+
+    nav {
+        flex-direction: column;
+        margin: 0;
+    }
+
+
+
+    nav li {
+        text-align: center;
+    }
+
+    .header-section {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .header-content {
+        margin-top: 4rem;
+    }
+
+    .banner-image img {
+        width: 22rem;
+    }
+
+
+
+    .sponsors-image {
+        margin-left: 1.25rem;
+        margin-right: 1.25rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .sponsors-image img {
+        width: 3.75rem;
+    }
+
+
+    .card {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 2rem;
+    }
+
+    /* featured section  */
+
+    .featured-section {
+        flex-direction: column-reverse;
+        margin: 3rem;
+        align-items: center
+    }
+
+
+    .featured-title {
+        margin-bottom: 2rem;
+        color: #0A0826;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .featured-description {
+        width: 329px;
+        margin: auto;
+        margin-bottom: 1rem;
+        text-align: center;
+
+
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        margin: 2rem auto;
+
+    }
+
+
+}

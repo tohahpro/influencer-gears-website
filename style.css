@@ -28,7 +28,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    margin-left: 13.875rem;
+    margin-left: 12.875rem;
     margin-right: 4.81rem;
     align-items: center;
 }
@@ -263,7 +263,7 @@ footer {
 
 /* Responsive media queries  */
 
-@media screen and (max-width:576px) {
+/* @media screen and (max-width:576px) {
 
 
     header {
@@ -313,71 +313,71 @@ footer {
     } */
 
 
-    /* sopnsors  */
+/* sopnsor  */
 
-    /* .sponsors-image {
+/* .sponsors-image {
         display: none;
         grid-template-columns: 3rem 3rem 3rem 3rem;
         grid-template-rows: 3rem 2rem;
         margin: 0;
         -ms-grid-column-align: 3rem;
         margin-top: 2rem;
-    } */
+    } 
 
 
-    .sponsors-image {
-        margin-left: 1.25rem;
-        margin-right: 1.25rem;
-        flex-wrap: wrap;
-        gap: 1rem;
-    }
+ .sponsors-image {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
-    .sponsors-image img {
-        width: 3.75rem;
-    }
-
-
-    .card {
-        grid-template-columns: repeat(1, 1fr);
-        margin: 1rem;
-    }
+.sponsors-image img {
+    width: 3.75rem;
+}
 
 
-    .featured-section {
-        flex-direction: column-reverse;
-        margin: 2rem;
-    }
-
-    .featured-content {
-        margin-bottom: 2rem;
+.card {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 1rem;
+}
 
 
+.featured-section {
+    flex-direction: column-reverse;
+    margin: 2rem;
+}
 
-    }
+.featured-content {
+    margin-bottom: 2rem;
 
-    .featured-title {
-        margin-bottom: 2rem;
-        color: #0A0826;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-
-    .featured-description {
-        width: 329px;
-        text-align: center;
-        margin: auto;
-    }
-
-    .btn {
-        display: flex;
-        margin: auto;
-        margin-top: 1rem;
-    }
 
 
 }
 
-@media screen and (min-width:576px) and (max-width:960px) {
+.featured-title {
+    margin-bottom: 2rem;
+    color: #0A0826;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.featured-description {
+    width: 329px;
+    text-align: center;
+    margin: auto;
+}
+
+.btn {
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+
+} */
+
+/* @media screen and (min-width:576px) and (max-width:960px) {
 
     header {
         padding: 2.5rem;
@@ -431,7 +431,7 @@ footer {
 
     /* featured section  */
 
-    .featured-section {
+/* .featured-section {
         flex-direction: column-reverse;
         margin: 3rem;
         align-items: center
@@ -462,4 +462,4 @@ footer {
     }
 
 
-}
+} */
